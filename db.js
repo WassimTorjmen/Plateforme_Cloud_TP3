@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize')
 
 // Database
 const sequelize = new Sequelize(
-  process.env.DATABSE_URL, // URL BD
+  process.env.DATABASE_URL, // URL BD
   {
     dialect: 'postgres',
     dialectOptions: {
