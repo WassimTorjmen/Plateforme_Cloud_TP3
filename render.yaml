@@ -16,8 +16,6 @@ databases:
   - name: Cloud_Plateforme_TP3_DB
     plan: free
     region: frankfurt
-    user: wassim
-    password: wassim123
     envVars:
       - key: POSTGRES_DB
         value: Cloud_Plateforme_TP3_DB
