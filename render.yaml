@@ -4,7 +4,7 @@ services:
     name: Cloud_Plateforme_TP3_Web
     runtime: node
     region : frankfurt
-    repo: git@github.com:WassimTorjmen/Plateforme_Cloud_TP3.git
+    repo: https://github.com/WassimTorjmen/Plateforme_Cloud_TP3.git
     buildCommand: npm install
     startCommand: npm start
     envVars:
