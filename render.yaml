@@ -1,8 +1,9 @@
 services:
   - type: web
     plan: free
-    name: Cloud_Plateforme_TP3
+    name: Cloud_Plateforme_TP3_Web
     runtime: node
+    region : frankfurt
     repo: https://github.com/WassimTorjmen/Plateforme_Cloud_TP3
     buildCommand: npm install
     startCommand: npm start
@@ -16,10 +17,4 @@ databases:
   - name: Cloud_Plateforme_TP3_DB
     plan: free
     region: frankfurt
-    envVars:
-      - key: POSTGRES_DB
-        value: Cloud_Plateforme_TP3_DB
-      - key: POSTGRES_USER
-        value: wassim
-      - key: POSTGRES_PASSWORD
-        value: wassim123
+    
